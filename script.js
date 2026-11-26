@@ -242,9 +242,9 @@ function vencerJogo() {
     mensagem.innerHTML = `
 
         <div classe="tela de vitoria">
-        <h1>  PARABÉNS!</h1>
+        <h1>🏆 PARABÉNS!</h1>
         <h2> VOCÊ VENCEU!</h2>
-        <div classe="icone de vitoria"> </div>
+        <div classe="icone de vitoria">🖥️ </div>
         <h1> VEM SER INFORMÁTICA</h1>
         <p> EEEP NAPOLEÃO NEVES DA LUZ</p>
         <p> FEIRA DAS PROFISSÕES 2026</p>
