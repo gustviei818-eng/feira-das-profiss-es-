@@ -241,22 +241,19 @@ function vencerJogo() {
 
     mensagem.innerHTML = `
 
-        🏆 PARABÉNS! VOCÊ VENCEU!
-
-        <br><br>
-
-        Você encontrou todos os cursos!
-
-        <br>
-
-        Tentativas: ${tentativas}
-
-        <br>
-
-        Tempo: ${document.getElementById("tempo").textContent}
-
-    `;
-
+        <div classe="tela de vitoria">
+        <h1>  PARABÉNS!</h1>
+        <h2> VOCÊ VENCEU!</h2>
+        <div classe="icone de vitoria"> </div>
+        <h1> VEM SER INFORMÁTICA</h1>
+        <p> EEEP NAPOLEÃO NEVES DA LUZ</p>
+        <p> FEIRA DAS PROFISSÕES 2026</p>
+        <h3> OBRIGADO POR PARTICIPAR!</h3>
+        <button onclick="INICIAR O JOGO ()">
+           JOGAR NOVAMENTE
+           </button>
+           </div>
+        
 }
 
 
