@@ -25,7 +25,9 @@ const cursos = [
     
     {
         nome:"FINANCIAS",
-        icone:" 
+        icone:" 💵",
+        id:4
+        },
         
     
 ];
