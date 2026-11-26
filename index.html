@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Memória das Profissões 2026</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>🎓 MEMÓRIA DAS PROFISSÕES</h1>
+    <p>EEEP Dr. Napoleão Neves da Luz</p>
+    <span>Feira das Profissões 2026</span>
+</header>
+<main>
+    <section class="introducao">
+        <h2>Teste sua memória!</h2>
+        <p>
+            Encontre os pares dos cinco cursos da nossa escola.
+            Boa sorte!
+        </p>
+        <button id="iniciar">🚀 INICIAR JOGO</button>
+    </section>
+    <section class="informacoes">
+        <div>
+            <h3>Tentativas</h3>
+            <span id="tentativas">0</span>
+        </div>
+        <div>
+            <h3>Pares encontrados</h3>
+            <span id="pares">0/5</span>
+        </div>
+        <div>
+            <h3>Tempo</h3>
+            <span id="tempo">00:00</span>
+        </div>
+    </section>
+    <section id="tabuleiro" class="tabuleiro">
+    </section>
+    <button id="reiniciar" class="reiniciar">
+        🔄 REINICIAR PARTIDA
+    </button>
+    <section id="mensagem" class="mensagem">
+    </section>
+</main>
+<footer>
+    <p>
+        Projeto desenvolvido para a Feira das Profissões 2026
+    </p>
+    <p>
+        EEEP Dr. Napoleão Neves da Luz
+    </p>
+</footer>
+<canvas id="confetes"></canvas>
+<script src="script.js"></script>
+</body>
+</html>
