@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body {
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #101c3d, #172f59);
+color: white;
+min-height: 100vh;
+text-align: center;
+}
+
+header {
+padding: 30px 15px;
+background: #09152e;
+border-bottom: 4px solid #00d4ff;
+}
+
+header h1 {
+font-size: 28px;
+color: #00d4ff;
+margin-bottom: 12px;
+}
+
+header p {
+font-size: 17px;
+margin-bottom: 8px;
+}
+
+header span {
+color: #ffd700;
+font-weight: bold;
+}
+
+main {
+max-width: 750px;
+margin: auto;
+padding: 25px 15px;
+}
+
+.introducao {
+margin-bottom: 25px;
+}
+
+.introducao h2 {
+color: #ffd700;
+margin-bottom: 12px;
+}
+
+.introducao p {
+margin-bottom: 20px;
+line-height: 1.5;
+}
+
+button {
+background: #00bfff;
+color: #07152d;
+border: none;
+padding: 14px 25px;
+border-radius: 10px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+transition: 0.3s;
+}
+
+button:hover {
+background: #ffd700;
+transform: scale(1.04);
+}
+
+.informacoes {
+display: flex;
+justify-content: space-around;
+gap: 10px;
+margin-bottom: 25px;
+flex-wrap: wrap;
+}
+
+.informacoes div {
+background: #223e68;
+padding: 15px;
+border-radius: 12px;
+min-width: 115px;
+}
+
+.informacoes h3 {
+font-size: 13px;
+margin-bottom: 10px;
+color: #00d4ff;
+}
+
+.informacoes span {
+font-size: 23px;
+font-weight: bold;
+}
+
+.tabuleiro {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 12px;
+margin: 20px auto;
+}
+
+.carta {
+height: 145px;
+border-radius: 15px;
+background: linear-gradient(145deg, #0878c9, #003c80);
+border: 3px solid #00d4ff;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+transition: 0.3s;
+user-select: none;
+}
+
+.carta:hover {
+transform: scale(1.04);
+}
+
+.carta .conteudo {
+display: none;
+}
+
+.carta.aberta,
+.carta.combinada {
+background: white;
+color: #152747;
+cursor: default;
+}
+
+.carta.aberta .conteudo,
+.carta.combinada .conteudo {
+display: flex;
+}
+
+.carta.aberta .interrogacao,
+.carta.combinada .interrogacao {
+display: none;
+}
+
+.interrogacao {
+font-size: 45px;
+color: white;
+font-weight: bold;
+}
+
+.conteudo {
+flex-direction: column;
+align-items: center;
+gap: 8px;
+}
+
+.icone {
+font-size: 42px;
+}
+
+.nome {
+font-size: 12px;
+font-weight: bold;
+}
+
+.reiniciar {
+margin-top: 15px;
+background: #ffd700;
+}
+
+.mensagem {
+margin: 25px 0;
+font-size: 20px;
+font-weight: bold;
+color: #ffd700;
+}
+
+/* TELA DE VITORIA */
+
+.tela-vitoria {
+background: linear-gradient(135deg, #0066cc, #061b42);
+border: 3px solid #ffd700;
+border-radius: 20px;
+padding: 30px 15px;
+margin-top: 20px;
+animation: aparecer 0.6s ease;
+}
+
+.tela-vitoria h1 {
+color: #ffd700;
+margin: 15px 0;
+}
+
+.tela-vitoria h2 {
+color: white;
+margin: 15px;
+}
+
+.icone-vitoria {
+font-size: 85px;
+margin: 20px;
+}
+
+.tela-vitoria p {
+margin: 12px;
+}
+
+.tela-vitoria h3 {
+margin: 20px;
+color: #00d4ff;
+}
+
+.tela-vitoria button {
+margin-top: 15px;
+background: #ffd700;
+}
+
+/* ANIMACAO */
+
+@keyframes aparecer {
+from {
+opacity: 0;
+transform: scale(0.7);
+}
+
+to {
+    opacity: 1;
+    transform: scale(1);
+}
+
+}
+
+/* CONFETES */
+
+#confetes {
+position: fixed;
+inset: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+z-index: 9999;
+}
+
+footer {
+padding: 25px 10px;
+background: #09152e;
+margin-top: 30px;
+font-size: 13px;
+line-height: 2;
+}
+
+/* CELULARES */
+
+@media (max-width: 500px) {
+
+header h1 {
+    font-size: 21px;
+}
+.tabuleiro {
+    gap: 8px;
+}
+.carta {
+    height: 115px;
+}
+.icone {
+    font-size: 32px;
+}
+.nome {
+    font-size: 10px;
+}
+.interrogacao {
+    font-size: 35px;
+}
+
+}
