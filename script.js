@@ -21,7 +21,13 @@ const cursos = [
         nome: "INFORMÁTICA",
         icone: "💻",
         id: 4
-    }
+    },
+    
+    {
+        nome:"FINANCIAS",
+        icone:" 
+        
+    
 ];
 
 let cartas = [];
