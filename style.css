@@ -209,5 +209,48 @@ footer {
     .interrogacao {
         font-size: 25px;
     }
+.tela-vitoria {
+    background: linear-gradient(135deg, #0066cc, #061b42);
+    border: 3px solid #ffd700;
+    border-radius: 20px;
+    padding: 30px 15px;
+    margin-top: 20px;
+    animation: aparecer 0.6s ease;
+}
 
+.tela-vitoria h1 {
+    color: #ffd700;
+    margin: 15px 0;
+}
+
+.tela-vitoria h2 {
+    color: white;
+    margin: 15px;
+}
+
+.icone-vitoria {
+    font-size: 85px;
+    margin: 20px;
+}
+
+.tela-vitoria p {
+    margin: 12px;
+}
+
+.tela-vitoria h3 {
+    margin: 20px;
+    color: #00d4ff;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        transform: scale(0.7);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 }
