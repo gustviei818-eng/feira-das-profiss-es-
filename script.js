@@ -22,14 +22,6 @@ const cursos = [
         icone: "💻",
         id: 4
     },
-    
-    {
-        nome:"FINANCIAS",
-        icone:" 💵",
-        id:4
-        },
-        
-    
 ];
 
 let cartas = [];
