@@ -191,7 +191,7 @@ function verificarPar() {
 
         limparSelecao();
 
-        if (pares === 4) {
+        if (pares === 5) {
 
             vencerJogo();
 
