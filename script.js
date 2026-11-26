@@ -1,7 +1,7 @@
 const cursos = [
 {
-nome: “ADMINISTRAÇÃO”,
-icone: “💼”,
+nome: "ADMINISTRAÇÃO",
+icone: "💼",
 id: 1
 },
 
