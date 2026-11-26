@@ -144,7 +144,7 @@ button:hover {
 }
 
 .interrogacao {
-    font-size: 45px;
+    font-size: 37px;
     color: white;
     font-weight: bold;
 }
@@ -152,42 +152,42 @@ button:hover {
 .conteudo {
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
 }
 
 .icone {
-    font-size: 42px;
+    font-size: 36px;
 }
 
 .nome {
-    font-size: 12px;
+    font-size: 9px;
     font-weight: bold;
 }
 
 .reiniciar {
-    margin-top: 15px;
+    margin-top: 12px;
     background: #ffd700;
 }
 
 .mensagem {
-    margin: 25px 0;
-    font-size: 20px;
+    margin: 19px 0;
+    font-size: 17px;
     font-weight: bold;
     color: #ffd700;
 }
 
 footer {
-    padding: 25px 10px;
+    padding: 19px 8px;
     background: #09152e;
-    margin-top: 30px;
-    font-size: 13px;
+    margin-top: 25px;
+    font-size: 9px;
     line-height: 2;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 350px) {
 
     header h1 {
-        font-size: 21px;
+        font-size: 16px;
     }
 
     .tabuleiro {
@@ -195,19 +195,19 @@ footer {
     }
 
     .carta {
-        height: 115px;
+        height: 90px;
     }
 
     .icone {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .nome {
-        font-size: 10px;
+        font-size: 8px;
     }
 
     .interrogacao {
-        font-size: 35px;
+        font-size: 25px;
     }
 
 }
